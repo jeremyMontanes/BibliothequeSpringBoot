@@ -3,13 +3,11 @@ package com.example.Bibliotheque.entity;
 import java.util.List;
 
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
+
+import com.example.Bibliotheque.interfaceEntity.SuperObject;
 
 @Entity
-public class album {
-
-    @GeneratedValue
-    private long id;
+public class album extends SuperObject{
     private List<musique> nombreChanson;
     private String nomGroupe;
 

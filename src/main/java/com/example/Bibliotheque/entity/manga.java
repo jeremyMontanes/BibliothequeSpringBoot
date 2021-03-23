@@ -1,5 +1,7 @@
 package com.example.Bibliotheque.entity;
 
-public class manga {
+import com.example.Bibliotheque.interfaceEntity.SuperObject;
+
+public class manga extends SuperObject{
     
 }
